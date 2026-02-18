@@ -61,10 +61,11 @@ PajuMuseum
 ├── frontend (React + TanStack Query)
 │   ├── src
 │   │   ├── components (Shared UI - Pagination, Comment)
-│   │   ├── hooks (API Query Hooks)
-│   │   └── pages (Collection, Chatbot, Board)
+│   │   └── pages (Collections, ChatBot, Board)
 ├── backend-spring (Spring AI + Gemini)
-│   └── src/main/java/com/pajumuseum/ai
+│   └── src/main/java/com/sist/web
+|        └── (Collections, Comments, ChatBot)
 └── backend-node (Community CRUD)
-    ├── routes
-    └── controllers
+    ├── node-db
+    ├── node-server
+    └── routes
