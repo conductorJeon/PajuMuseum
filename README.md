@@ -25,11 +25,13 @@
 
 ### 2. AI 가이드 챗봇 (Spring AI)
 - **Gemini API** 기반의 인공지능 활용.
-- **비동기 루프**를 이용한 커스텀 타이핑 애니메이션 구현.
+- 커스텀 타이핑 애니메이션 구현.
 - 사용자 편의를 위한 자동 스크롤(Auto-scroll) 기능 탑재.
 
 ### 3. 커뮤니티 게시판 (Node.js CRUD)
 - **Node.js**를 활용한 게시판 생성, 조회, 수정, 삭제 기능 구현.
+
+### 4. 모듈화
 - **페이지네이션(Pagination) 모듈화**: 다양한 리스트에서 재사용 가능한 범용 페이지네이션 컴포넌트 설계.
 - **댓글 시스템 모듈화**: 독립적인 댓글 컴포넌트 설계를 통한 코드 재사용성 극대화.
 
@@ -55,7 +57,7 @@
 
 ---
 
-## 📂 Project Structure (Simplified)
+## Project Structure (Simplified)
 ```text
 PajuMuseum
 ├── frontend (React + TanStack Query)
